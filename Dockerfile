@@ -12,4 +12,4 @@ COPY ./ /usr/src/CPPND-SYSTEM-MONITOR
 WORKDIR /usr/src/CPPND-SYSTEM-MONITOR
 RUN make build
 
-CMD [ "./build/monitor" ]
+CMD [ "bash" ]
